@@ -200,6 +200,7 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-left: 0%;
 }
 
 header nav ul li {
@@ -532,6 +533,10 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  header nav ul li {
+    padding-right: 40px;
+  }
+
   .header-divider {
     display: none;
   }
@@ -690,6 +695,10 @@ input[type=button] {
     padding: 15px 0;
   }
 
+  header nav ul {
+    padding-left: 40px;
+  }
+
   .content-wrapper {
     max-width: 960px;
   }
@@ -714,6 +723,7 @@ input[type=button] {
     font-size: 3.75em;
     width: 80%;
   }
+
 
   /* Aside */
 
