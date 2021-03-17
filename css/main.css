@@ -104,6 +104,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -196,13 +198,6 @@ header nav {
   flex-flow: row wrap;
 }
 
-header nav ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding-left: 0%;
-}
-
 header nav ul li {
   font-size: 1.125em;
 }
@@ -232,9 +227,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -325,6 +328,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
@@ -384,7 +392,9 @@ input[type=button] {
 }
 
 header nav ul {
-  margin: -2px 0 6px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contact-content p {
@@ -553,10 +563,6 @@ header nav ul {
     justify-content: space-between;
   }
 
-  header nav ul li {
-    padding-right: 40px;
-  }
-
   .header-divider {
     display: none;
   }
@@ -640,6 +646,11 @@ header nav ul {
     align-items: center;
     flex-direction: row;
   }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+}
 
   footer .contact {
     margin-bottom: 0;
